@@ -1,0 +1,49 @@
+{
+    "name": "vexriscv",
+    "title": "Platform for VexRiscv Core MCU",
+    "description": "VexRiscv is a RISC-V implementation written in SpinalHDL.",
+    "url": "https://github.com/SpinalHDL/VexRiscv",
+    "homepage": "http://",
+    "license": "Apache-2.0",
+    "engines": {
+        "platformio": "<5"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MindShow/platform-vexriscv.git"
+    },
+    "version": "0.0.1",
+    "packageRepositories": [
+        "http://dl.sipeed.com/LONGAN/platformio/dl-packages/manifest.json",
+        "https://dl.bintray.com/platformio/dl-packages/manifest.json",
+        "http://dl.platformio.org/packages/manifest.json"
+    ],
+    "frameworks": {
+        "arduino": {
+            "package": "framework-arduino-gd32v",
+            "script": "builder/frameworks/arduino.py"
+        }
+    },
+    "packages": {
+        "framework-gd32vf103-sdk": {
+            "optional": true,
+            "type": "framework",
+            "version": "~1.0.0"
+        },
+        "tool-openocd-gd32v": {
+            "optional": true,
+            "type": "uploader",
+            "version": "~0.1.1"
+        },
+        "tool-gd32vflash": {
+            "type": "uploader",
+            "optional": true,
+            "version": "~0.1.0"
+        },
+        "toolchain-gd32v": {
+            "type": "toolchain",
+            "version": "~9.2.0"
+        }
+    }
+
+}
