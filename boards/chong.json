@@ -17,14 +17,13 @@
         "hxtal_value": "8000000"
     },
     "frameworks": [
-        "gd32vf103-sdk",
         "arduino"
     ],
-    "name": "GD32VF103V-EVAL",
+    "name": "chong",
     "upload": {
         "maximum_ram_size": 32768,
         "maximum_size": 131072,
-        "protocol": "gd-link"
+        "protocol": "jink"
     },
     "url": "https://www.sipeed.com/",
     "vendor": "Sipeed"
