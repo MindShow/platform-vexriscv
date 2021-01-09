@@ -14,9 +14,7 @@
     },
     "version": "0.0.1",
     "packageRepositories": [
-        "http://dl.sipeed.com/LONGAN/platformio/dl-packages/manifest.json",
-        "https://dl.bintray.com/platformio/dl-packages/manifest.json",
-        "http://dl.platformio.org/packages/manifest.json"
+        "https://raw.githubusercontent.com/MindShow/platform-vexriscv/master/resource/manifest.json"
     ],
     "frameworks": {
         "arduino": {
