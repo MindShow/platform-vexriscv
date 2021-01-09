@@ -25,9 +25,8 @@ class Gd32vPlatform(PlatformBase):
         non_debug_protocols = ["serial"]
         supported_debug_tools = [
             "jlink",
-            "gd-link",
+            "blaster"
             "ft2232",
-            "sipeed-rv-debugger"
         ]
 
         upload_protocol = board.manifest.get("upload", {}).get("protocol")
@@ -46,7 +45,7 @@ class Gd32vPlatform(PlatformBase):
             if link in non_debug_protocols or link in debug['tools']:
                 continue
 
-            if link in ["jlink", "gd-link"]:
+            if link in ["jlink", "blaster"]:
                 openocd_interface = link
             else:
                 openocd_interface = "ftdi/" + link

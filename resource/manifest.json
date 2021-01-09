@@ -1,0 +1,69 @@
+{
+  "framework-gd32vf103-sdk":[
+  {
+      "sha1": "27554d2e811e4bea8d2f8380a8188ec0425724fd",
+      "system": "*",
+      "url": "http://dl.sipeed.com/LONGAN/platformio/dl-packages/framework-gd32vf103-sdk-v1.0.0.tar.gz",
+      "version": "1.0.0"
+  }
+  ],
+  "framework-arduino-gd32v":[
+  {
+      "sha1": "0791bc2f745c0b7884458294c6cc1ef281896e4f",
+      "system": "*",
+      "url": "http://dl.sipeed.com/LONGAN/platformio/dl-packages/framework-arduino-gd32v-demo-0.1.1.tar.gz",
+      "version": "0.1.1"
+  }
+  ],
+  "tool-openocd-gd32v": [
+  {
+      "sha1": "a0a1cb649eda649250139290f6ca38a605efc172", 
+      "system": "linux_x86_64", 
+      "url": "http://dl.sipeed.com/LONGAN/platformio/dl-packages/tool-openocd-gd32v-v0.1.1-linux.tar.gz", 
+      "version": "0.1.1"
+  }, 
+  {
+      "sha1": "12fb7af4027f0cd4eff53a3ab4d94f395416fe3b", 
+      "system": [
+        "windows_x86", 
+        "windows_amd64"
+      ], 
+      "url": "http://dl.sipeed.com/LONGAN/platformio/dl-packages/tool-openocd-gd32v-v0.1.1-win.tar.gz", 
+      "version": "0.1.1"
+  }
+  ],
+  "toolchain-gd32v": [
+  {
+      "sha1": "c7858c6757c11101a0a7fa261ee525e62b29742d",
+      "system": [
+        "windows_x86", 
+        "windows_amd64"
+      ], 
+      "url": "http://dl.sipeed.com/LONGAN/platformio/dl-packages/toolchain-gd32v-v9.2.0-win.tar.gz", 
+      "version": "9.2.0"
+  },
+  {
+      "sha1": "a0012f8cb070b18b2b0077b081532ac0057519d9",
+      "system": "linux_x86_64",
+      "url": "http://dl.sipeed.com/LONGAN/platformio/dl-packages/toolchain-gd32v-v9.2.0-linux.tar.gz", 
+      "version": "9.2.0"
+  }
+  ],
+  "tool-gd32vflash": [
+  {
+      "sha1": "44deb6bacdf05cd12d37470b51e0236acd5506de",
+      "system": [
+        "windows_x86", 
+        "windows_amd64"
+      ], 
+      "url": "http://dl.sipeed.com/LONGAN/platformio/dl-packages/tool-gd32vflash-v0.1.0-win.tar.gz", 
+      "version": "0.1.0"
+  },
+  {
+      "sha1": "e823ae8ee3affe8b597681c396e57a82eb25ef76",
+      "system": "linux_x86_64",
+      "url": "http://dl.sipeed.com/LONGAN/platformio/dl-packages/tool-gd32vflash-v0.1.0-linux.tar.gz", 
+      "version": "0.1.0"
+  }
+  ]
+}
